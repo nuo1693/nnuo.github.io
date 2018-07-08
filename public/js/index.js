@@ -1,7 +1,6 @@
 var L_l_g={};
 L_l_g.Init=function(){
-    var h = document.documentElement.clientHeight || document.body.clientHeight;
-    console.log(h)
-    // $("body")[0].style.height=document.documentElement.clientHeight+"px" || document.body.clientHeight +"px";
+    document.getElementsByTagName("body")[0].style.height=document.documentElement.clientHeight+"px" || document.body.clientHeight +"px";//设置屏幕宽度
+    document.getElementsByTagName("audio")[0].play();//背景音乐播放
     writeContent(true);
 }();
