@@ -20,3 +20,6 @@ body{
   text-align: center;
   font-size: 18px;
 }
+#blink, #contentToWrite{
+  display: none;
+}
